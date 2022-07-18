@@ -37,12 +37,12 @@
                             Console.WriteLine("Unknow operated!");
                             break;
                     }
-                    Console.WriteLine("Для выхода нажмите <Esc>. Else enter any key...");
                 }
                 catch
                 {
-                    Console.WriteLine("String NOT Formating! Enter any key...");
+                    Console.WriteLine("String NOT Formating!");
                 }
+                Console.WriteLine("For exit enter <Esc>. Else enter any key...");
             } while ((int)((Console.ReadKey()).Key) != 27);
         }
     }
