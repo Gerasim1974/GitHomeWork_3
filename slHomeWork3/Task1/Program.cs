@@ -34,13 +34,13 @@
                             Console.WriteLine($"{sArray[0]} {sArray[1]} : {int.Parse(sArray[0]) * int.Parse(sArray[1])}");
                             break;
                         default:
-                            Console.WriteLine("Unknow operated!");
+                            Console.WriteLine("Unknow operator!");
                             break;
                     }
                 }
                 catch
                 {
-                    Console.WriteLine("String NOT Formating!");
+                    Console.WriteLine("Unknown string format!");
                 }
                 Console.WriteLine("For exit enter <Esc>. Else enter any key...");
             } while ((int)((Console.ReadKey()).Key) != 27);
